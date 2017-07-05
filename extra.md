@@ -13,3 +13,6 @@
 ##### 上下文两块来源
 ***首页·头部：*** `_layouts/default.html`
 ***首页·下半部：*** `index.html`
+
+##### 设定头像
+***$avatar:*** `_sass/_variables.scss`
