@@ -57,19 +57,19 @@ author: wplay
 		- 只知道在index.html里面作者如下写到，但是没找到他怎么解析这个excerpt的
 		
 		```
-		&lt;div class="entry">
+		&lt; div class="entry">
 	        \{{ post.excerpt }}
-	    &lt;/div>
+	    &lt; /div>
 		```
 
 		- 还好我机智，谷歌了好久，找到一种方式，就是自己在该处手写一个解析不就行了嘛！[解决方案传送门](https://gist.github.com/benbalter/5555369)
-		- 修改后的内容为下，也就是说，我的博客里，从上面开始读，但凡读取到`&lt;!-- wplay -->`这个字段就停止读取，截取已读取的内容作为摘要
+		- 修改后的内容为下，也就是说，我的博客里，从上面开始读，但凡读取到`<!-- wplay -->`这个字段就停止读取，截取已读取的内容作为摘要
 		
-		```
-		&lt;div class="entry">
-	        \{{ post.content | split:'&lt;!-- wplay -->' | first }}
-	    &lt;/div>
-		```
+```		
+<div class="entry">
+    {{ post.content | split:'<!-- wplay -->' | first }}
+</div>
+```
 
 ## Write Blog
 > 好了，可以开始写博客了，所有的博客放置在`_posts/`里面，必须按照格式`year-month-day-title`来书写，（ps：记得之前找到了，现在又找不到了，尴尬），反正就是需要提取出来`year-month-day`以此来给博客列表进行排序并且记录时间的
