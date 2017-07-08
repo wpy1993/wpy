@@ -57,18 +57,18 @@ author: wplay
 		- 只知道在index.html里面作者如下写到，但是没找到他怎么解析这个excerpt的
 		
 		```
-		<div class="entry">
+		&lt;div class="entry">
 	        {{ post.excerpt }}
-	    </div>
+	    &lt;/div>
 		```
 
 		- 还好我机智，谷歌了好久，找到一种方式，就是自己在该处手写一个解析不就行了嘛！[解决方案传送门](https://gist.github.com/benbalter/5555369)
-		- 修改后的内容为下，也就是说，我的博客里，从上面开始读，但凡读取到`<!-- wplay -->`这个字段就停止读取，截取已读取的内容作为摘要
+		- 修改后的内容为下，也就是说，我的博客里，从上面开始读，但凡读取到`&lt;!-- wplay -->`这个字段就停止读取，截取已读取的内容作为摘要
 		
 		```
-		<div class="entry">
-	        {{ post.content | split:'<!-- wplay -->' | first }}
-	    </div>
+		&lt;div class="entry">
+	        {{ post.content | split:'&lt;!-- wplay -->' | first }}
+	    &lt;/div>
 		```
 
 ## Write Blog
