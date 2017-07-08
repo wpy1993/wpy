@@ -58,7 +58,7 @@ author: wplay
 		
 		```
 		&lt;div class="entry">
-	        {{ post.excerpt }}
+	        \{{ post.excerpt }}
 	    &lt;/div>
 		```
 
@@ -67,7 +67,7 @@ author: wplay
 		
 		```
 		&lt;div class="entry">
-	        {{ post.content | split:'&lt;!-- wplay -->' | first }}
+	        \{{ post.content | split:'&lt;!-- wplay -->' | first }}
 	    &lt;/div>
 		```
 
