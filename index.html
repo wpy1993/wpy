@@ -9,10 +9,7 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.content | split:'<!--wplay-->' | first }}
-        {% if post.content contains '<!--wplay-->' %}
-        <a href="{{ post.url }}">read more</a>
-        {% endif %}
+        {{ post.content | split:'<!-- wplay -->' | first }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">点击进入</a>
