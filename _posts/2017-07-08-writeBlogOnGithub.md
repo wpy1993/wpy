@@ -59,7 +59,7 @@ author: wplay
 			```
 
 			<div class="entry">
-				\{\{ post.excerpt \}\}
+				\{{ post.excerpt }\}
 			</div>
 			
 			```
@@ -69,7 +69,7 @@ author: wplay
 		
 			```		
 			<div class="entry">
-				{{ post.content | split:'<!-- wplay -->' | first }}
+				\{{ post.content | split:'<!-- wplay -->' | first \}}
 			</div>
 			```
 
