@@ -37,3 +37,5 @@ author: Wplay
 > ps: 貌似tortoiseGit里面的show log指的是commit的log
 > 并不会告诉你git push的log，嗯，的确是这样，git push哪有什么log啊。
 > 还有，git commit这个指令被单独拿出来了，并列在右键中。
+> 
+> ps2：记住了，即使是tortoiseGit这么方便的东西，你可以忘记add，但是一定要commit后push，因为push的就是你的最后的一个版本号的东西，没有commit的东西它是不会理你的
