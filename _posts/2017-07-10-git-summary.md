@@ -7,6 +7,7 @@ author: Wplay
 完整版git使用总结. 
 <!-- wplay -->
 
+全程参考廖雪峰的[git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 ## 安装git
 -----
 - 下载git [git-window-x64](https://git-scm.com/download/win)
@@ -126,7 +127,7 @@ author: Wplay
 ## git补充
 -----
 
-### 设置多个ssh
+### 设置多个ssh[参考资料](http://blog.csdn.net/chaoyue0071/article/details/41824339)
 > 对于两个gitLab账号，我们如何配置两个ssh分别针对不同的gitLab呢？
 
 - 随便哪里打开`git bash`
@@ -162,5 +163,6 @@ Host gitLab_work  `这个是名称，随意起名啦`
 ### git修改远程仓库的方法
 > 两种方式
 
+	- `git remote -v` 查看远程仓库的url
 	- `git remote set-url origin [new-url]` 直接设置
 	- `git remote rm origin` + `git remote add origin [new-url]` 先删除原本的origin，再添加新的origin
