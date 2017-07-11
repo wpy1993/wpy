@@ -59,7 +59,7 @@ author: wplay
 			```
 
 			<div class="entry">
-				\{{ post.excerpt }\}
+				\{{ post.excerpt \}}
 			</div>
 			
 			```
