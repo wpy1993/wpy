@@ -59,7 +59,8 @@ author: wplay
 			```
 
 			<div class="entry">
-				\{ \{ post.excerpt \} \}
+				<!-- 没办法，太恶心了，jekyll100%转换mustache语法，转义也会很丑 -->
+				\{\{ post.excerpt \}\}
 			</div>
 			
 			```

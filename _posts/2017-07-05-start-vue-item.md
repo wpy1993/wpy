@@ -39,7 +39,7 @@ author: wplay
 
 - npm run dev
 - npm run build
-- 
+- 算了，回头再搞你了，我要写git blog了
 
 
 
