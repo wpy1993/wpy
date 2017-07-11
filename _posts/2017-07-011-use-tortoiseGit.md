@@ -31,3 +31,7 @@ author: Wplay
 - 安装中文语言包（以管理员身份安装）,`tortoiseGit > settings > General > language`,ok~
 
 > 窝草？记录了半天，发现网上有详细的安装blog，详细到每一步骤都有截图，嗯，推荐一下。[传送门](http://blog.csdn.net/renfufei/article/details/41647937)
+> 
+
+
+测试一点点东西啦
