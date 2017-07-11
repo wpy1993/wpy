@@ -34,4 +34,6 @@ author: Wplay
 > 
 
 
-测试一点点东西啦
+> ps: 貌似tortoiseGit里面的show log指的是commit的log
+> 并不会告诉你git push的log，嗯，的确是这样，git push哪有什么log啊。
+> 还有，git commit这个指令被单独拿出来了，并列在右键中。
