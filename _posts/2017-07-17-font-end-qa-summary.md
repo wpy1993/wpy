@@ -86,10 +86,17 @@ author: Wplay
 - ajax的实现(全过程)
 
 - jsonp的实现
+	- [传送门](https://www.zhihu.com/question/19966531)
+
 - 怎么处理跨域
+	- [传送门1](http://blog.csdn.net/joyhen/article/details/21631833)  **八种跨域**
+	- [传送门2](http://blog.csdn.net/fdipzone/article/details/46390573/)  **server.php => Access-Control-Allow-Origin**
+
 - restful和method的解释
 - get和post的区别
+	+ [传送门](http://blog.csdn.net/gideal_wang/article/details/4316691)
 - 事件模型解释
+	+ [传送门](https://segmentfault.com/a/1190000006934031)
 - 编写一个元素拖拽插件
 - 编写一个`contextmenu`的插件
 - 编写web端cookie的设置和获取方法
@@ -101,7 +108,8 @@ author: Wplay
 - css优先级（高级到底是啥意思？高级是权重高还是低？）
 - 如何实现radio的文字描述控制radio的状态(通过label实现)
 - delegate如何实现
-- 
+- ng, vue, react 怎么选择
+	+ [传送门](https://www.zhihu.com/question/39943474)
 
 
 - 如何说服对方使用jsBridge
